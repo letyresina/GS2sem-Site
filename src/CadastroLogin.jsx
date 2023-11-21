@@ -5,7 +5,7 @@ import './App.scss'
 function CadastroLogin(){
     return(
         <>
-        AAAAAAA
+        
         </>
     )
 }

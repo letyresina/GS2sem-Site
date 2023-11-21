@@ -5,7 +5,7 @@ import './App.scss'
 function Duvidas(){
     return(
         <>
-        AAAAAAA
+        
         </>
     )
 }

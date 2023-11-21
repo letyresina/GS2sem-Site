@@ -5,7 +5,7 @@ import './App.scss'
 function Contato(){
     return(
         <>
-        AAAAAAA
+        
         </>
     )
 }
