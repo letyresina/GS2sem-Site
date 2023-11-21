@@ -1,6 +1,7 @@
 import {} from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Nav from './Nav';
+import Footer from './Footer'
 import Home from '../src/Home';
 import Projeto from '../src/Projeto';
 import Contato from '../src/Contato';
@@ -23,6 +24,7 @@ function App() {
           <Route path='/Contato' element={<Contato />} />
           <Route path='/CadastroLogin' element={<CadastroLogin />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )
