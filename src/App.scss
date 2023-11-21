@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+@import "./variavel";
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* Desktop */
+@media screen and (min-width:1024px){
+    .header{
+        height: 200px;
+        font-family: $fonte-destaque;
+        background-image: linear-gradient(to right, $cor-verde-forte, $cor-verde-claro);
+        .container-nav{
+            .logo{
+                margin-left:10px;
+                
+            }
+            .nav-items{
+                display: flex;
+                margin-left:200px;
+                justify-content: space-evenly;
+                .item-nav{
+                    color:$cor-destaque-nav;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 23px;
+                }
+                .item-nav:hover{
+                    color:$cor-detalhes;
+                }
+                #cadastroLogin{
+                    padding:5px;
+                    border:1px solid $cor-destaque-nav;
+                    width: 200px;
+                    border-radius: 10px;
+                    img{
+                        width: 40px;
+                        padding-bottom:4px;
+                        padding-right: 5px;
+                    }
+
+                }
+            }
+        }
+    }
+}
