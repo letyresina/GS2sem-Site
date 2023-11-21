@@ -21,9 +21,8 @@ function Nav(){
                                 <NavLink to='CadastroLogin' id='item-nav' className='item-nav'>Cadastro/Login</NavLink>
                             </div>
                         </nav>
-                        <hr/>
                     </div>
-                    
+                    <hr/>
                     <p>Copyright © 2023 - Todos os direitos reservados</p>
                     <img className='logoPulsetech' src='./src/assets/logoPulsetech.png' alt='Logo PulseTech'/>
                 </div>
