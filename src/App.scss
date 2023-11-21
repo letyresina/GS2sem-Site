@@ -9,8 +9,9 @@
 
 /* Desktop */
 @media screen and (min-width:1024px){
+    /* Navbar e header */
     .header{
-        height: 200px;
+        height: 190px;
         font-family: $fonte-destaque;
         background-image: linear-gradient(to right, $cor-verde-forte, $cor-verde-claro);
         .container-nav{
@@ -23,6 +24,7 @@
                 margin-left:200px;
                 justify-content: space-evenly;
                 .item-nav{
+                    margin-bottom:100px;
                     color:$cor-destaque-nav;
                     text-decoration: none;
                     font-weight: bold;
@@ -34,7 +36,9 @@
                 #cadastroLogin{
                     padding:5px;
                     border:1px solid $cor-destaque-nav;
+                    margin-bottom:130px;
                     width: 200px;
+                    height: 50px;
                     border-radius: 10px;
                     img{
                         width: 40px;
