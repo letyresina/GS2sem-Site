@@ -5,6 +5,12 @@
       "nome": "Testando",
       "senha": "1234",
       "id": 1
+    },
+    {
+      "email": "teste2@gmail.com",
+      "nome": "Teste 2",
+      "senha": "12345",
+      "id": 2
     }
   ]
 }
