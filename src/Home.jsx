@@ -41,7 +41,25 @@ function Home(){
 
                 <div className='diferenciaisHome'>
                     <h1>Nossos diferenciais!</h1>
-                    
+                    <div className='diferenciais'>
+                        <div className='diferencial'>
+                            <img className='img-fluid' src='./src/assets/interface-ux.png' alt='UX'/>
+                            <h3>Interface amigável</h3>
+                            <p>Garantindo melhor experiência ao usuário</p>
+                        </div>
+                        <div className='diferencial'>
+                            <img className='img-fluid' src='./src/assets/facilitador.png' alt='Facilitador' />
+                            <h3>Foco no usuário</h3>
+                            <p>Aqui, nosso foco é você!</p>
+                        </div>
+                        <div className='diferencial'>
+                            <img className='img-fluid' src='./src/assets/chuva-de-ideias.png' alt='Ideias' />
+                            <h3>Inovação contínua</h3>
+                            <p>Aqui, ouvimos você!</p>
+                        </div>
+                    </div>
+                    <h4>Ficou com alguma dúvida? tire suas dúvidas com a gente!</h4>
+                    <a href='./Duvidas'><button className='botaoDuvidas'>Dúvidas frequentes</button></a>
                 </div>
              </section>
         </>

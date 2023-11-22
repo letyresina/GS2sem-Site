@@ -473,6 +473,51 @@
             .slick-dots {
             margin-bottom: 20px; 
             } 
+
+            .diferenciaisHome{
+                text-align: center;
+                padding-top:30px;
+                padding-bottom: 30px;
+                h1{
+                    font-size: 50px;
+                    color: $cor-texto-padrao;
+                    padding-bottom: 10px;
+                }
+
+                h4{
+                    font-size: 30px;
+                    font-style: italic;
+                }
+                .botaoDuvidas{
+                    margin-top:10px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: $cor-botao-destaque-rosaclaro;
+                    font-size: 30px;
+                    width: 400px;
+                }
+                .botaoDuvidas:hover{
+                    background-color: $cor-rosa-escuro;
+                }
+                .diferenciais{
+                    display: flex;
+                    text-align: center;
+                    .diferencial{
+                        padding: 10px;
+                        img{
+                            margin-bottom:10px;
+                            width: 50%;
+                        }
+                        h3{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
         
     }
 }
