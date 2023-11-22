@@ -17,14 +17,14 @@ function Nav(){
                         <h4>Área dos usuários</h4>
                         <nav className='nav-items'>
                             <div className='cadastroLogin'>
-                                <img src='./src/assets/entrar-avatar.png' alt="Usuário entrar" />
+                                <img className='img-fluid' src='./src/assets/entrar-avatar.png' alt="Usuário entrar" />
                                 <NavLink to='CadastroLogin' id='item-nav' className='item-nav'>Cadastro/Login</NavLink>
                             </div>
                         </nav>
                     </div>
                     <hr/>
                     <p>Copyright © 2023 - Todos os direitos reservados</p>
-                    <img className='logoPulsetech' src='./src/assets/logoPulsetech.png' alt='Logo PulseTech'/>
+                    <img className='img-fluid' id='logoPulsetech' src='./src/assets/logoPulsetech.png' alt='Logo PulseTech'/>
                 </div>
             </footer>
         </>

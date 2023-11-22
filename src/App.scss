@@ -16,7 +16,7 @@
         background-image: linear-gradient(to right, $cor-verde-forte, $cor-verde-claro);
         margin-bottom:10px;
         .container-nav{
-            .logo{
+            #logo{
                 margin-left:10px;
             }
             .nav-items{
@@ -108,7 +108,7 @@
                 justify-items: center;
                 font-weight: bolder;
             }
-            .logoPulsetech{
+            #logoPulsetech{
                 width: 200px;
                 padding-bottom: 10px;
             }
@@ -252,4 +252,14 @@
         }
 
     }
+}
+
+/* Tablet */
+@media screen and (min-width:900px) and (max-width:1023px){
+
+}
+
+/* Celular */
+@media screen and (max-width:500px){
+
 }
