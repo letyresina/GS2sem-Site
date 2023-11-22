@@ -19,7 +19,21 @@
 
 /* Tablet */
 @media screen and (min-width:900px) and (max-width:1023px){
+    /* Carrossel de resenhas */
+    .carousel-container {
+        text-align: center;
+        max-width: 80%;
+        overflow: hidden;
+    }
 
+    .carousel-slide {
+    padding: 10px; 
+    }
+
+    /* Mova os pontos indicadores para cima */
+    .slick-dots {
+    margin-bottom: 20px; 
+    } 
 }
 
 /* Celular */
