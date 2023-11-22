@@ -373,6 +373,23 @@
             }
         }
     }
+
+    /* Carrossel Home */
+    /* Seu arquivo de estilos */
+    .carousel {
+        margin: 0 auto;
+    }
+    
+    .carousel .slide {
+        background: #333; /* Cor de fundo dos slides */
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    
+    .carousel img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* Tablet */
@@ -384,3 +401,5 @@
 @media screen and (max-width:500px){
 
 }
+
+  
