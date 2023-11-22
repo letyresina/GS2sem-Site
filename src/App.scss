@@ -1275,6 +1275,73 @@
             }
         }
     }
+
+        /* Conteúdo contato */
+        .conteudoContato{
+            position: relative;
+            .imagemFundo {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('./src/assets/imagemFundoForms.png') no-repeat center;
+                background-size: cover;
+                z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo principal */
+              }
+    
+            .formulario{
+                position: relative;
+                z-index: 1;
+                padding: 10px;
+                margin-top: 60px;
+                font-family: $fonte-geral;
+                color: $cor-texto-formulario;
+                border-radius: 10px;
+                background-color: $cor-rosa-escuro;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                h3{
+                    font-size: 30px;
+                }
+    
+                p{
+                    font-size: 15px;
+                    font-style: italic;
+                }
+                label{
+                    font-size: 23px;
+                }
+                input, select{
+                    border: none;
+                    margin-bottom:15px;
+                    font-size: 15px;
+                }
+                .inputInformacoes, select{
+                    padding-left: 10px;
+                    width: 280px;
+                    height: 40px;
+                }
+                .inputMensagem{
+                    padding-left: 10px;
+                    width: 300px;
+                    height: 200px;
+                }
+                .inputBotao{
+                    font-size: 25px;
+                    background-color: $cor-destaque-nav;
+                    text-align: center;
+                    border-radius: 10px;
+                    color:$cor-texto-padrao;
+                    height: 40px;
+                    width: 150px;
+                }
+                .inputBotao:hover{
+                    background-color: $cor-verde-claro;
+                }
+            }
+        }
 }
 
   
