@@ -5,7 +5,8 @@ import './App.scss'
 function Home(){
     return(
         <>
-        AAAAAAA
+            
+
         </>
     )
 }

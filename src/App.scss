@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Love+Ya+Like+A+Sister&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500&display=swap');
 @import "./variavel";
 
 *{
@@ -14,10 +14,10 @@
         height: 190px;
         font-family: $fonte-destaque;
         background-image: linear-gradient(to right, $cor-verde-forte, $cor-verde-claro);
+        margin-bottom:10px;
         .container-nav{
             .logo{
                 margin-left:10px;
-                
             }
             .nav-items{
                 display: flex;
@@ -113,5 +113,143 @@
                 padding-bottom: 10px;
             }
         }
+    }
+
+    /* Página projeto */
+    .conteudoProjeto{
+        font-family: $fonte-geral;
+        font-weight: 500;
+        .inicioProjeto{
+            text-align: center;
+            .texto{
+                display: flex;
+                justify-content: center;
+                .rosa{
+                    color:$cor-rosa-escuro;
+                    padding-right:15px;
+                }
+                .verde{
+                    color:$cor-destaque-nav;
+                    padding-right:15px;
+                }
+            }
+            img{
+                width: 50%;
+                margin-bottom:10px;
+            }
+        }
+
+        .textoInicialProjeto{
+            padding-top: 20px;
+            padding-bottom: 40px;
+            display: flex;
+            width: 80%;
+            img{
+                width: 40%;
+            }
+            p{
+                font-size: 30px;
+                text-align: justify;
+                padding-left:10px;
+            }
+        }
+
+        .personas{
+            color:$cor-texto-padrao;
+            background-image: linear-gradient(to right, $cor-rosa-escuro, $cor-botao-destaque-rosaclaro);
+            h1{
+                text-align: center;
+            }
+            .persona{
+                padding-top:10px;
+                padding-bottom:10px;
+                display: flex;
+                width: 90%;
+                img{
+                    width: 32%;
+                }
+                .textoPersona{
+                    padding-left: 10px;
+                    padding-right: 20px;
+                    padding-top:10px;
+                    text-align: justify;
+                    h2{
+                        font-size: 35px;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-weight: 500;
+                        font-size: 26px;
+                    }
+
+                    .botaoContato{
+                        border:none;
+                        border-radius: 10px;
+                        width: 170px;
+                        background-color: $cor-destaque-nav;
+                    }
+                    .botaoContato:hover{
+                        background-color: $cor-verde-claro;
+                    }
+                }
+            }
+        }
+
+        .integracoes{
+            padding-top:30px;
+            padding-bottom:30px;
+            color:$cor-texto-padrao;
+            h1{
+                text-align: center;
+            }
+
+            .integracao{
+                padding-top:10px;
+                padding-bottom:10px;
+                display: flex;
+                width: 90%;
+            }
+            img{
+                width: 32%;
+            }
+            .textoIntegracao{
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top:10px;
+                text-align: justify;
+                h2{
+                    font-size: 35px;
+                    font-weight: bold;
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .diferencial{
+            width: 100%;
+            background-image: linear-gradient(to right, $cor-rosa-escuro, $cor-botao-destaque-rosaclaro);
+            text-align: center;
+            padding-bottom:10px;
+        }
+
+        .empresaDesenvolvedora{
+            padding-top:20px;
+            padding-bottom:10px;
+            width: 50%;
+            h1{
+                padding-bottom:10px;
+                color:$cor-destaque-nav;
+            }
+            p{
+                padding-top:15px;
+                color:$cor-texto-padrao;
+                font-size: 25px;
+                text-align: justify;
+            }
+        }
+
     }
 }
