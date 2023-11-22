@@ -1,54 +1,66 @@
 @import "./variavel";
 
-.user {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80%;
-    padding:10px;
-    background-color: $cor-rosa-escuro;
-    font-family: $fonte-geral;
-    color: $cor-texto-formulario;
-
-    .forms_title{
-        font-size: 50px;
+/* Desktop */
+@media screen and (min-width:1024px){
+    .user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-    }
+        height: 80%;
+        padding:10px;
+        background-color: $cor-rosa-escuro;
+        font-family: $fonte-geral;
+        color: $cor-texto-formulario;
 
-    p{
-        font-size: 20px;
-        font-style: italic;
-    }
+        .forms_title{
+            font-size: 50px;
+            text-align: center;
+        }
 
-    input{
-        border:none;
-        margin-bottom:10px;
-    }
+        p{
+            font-size: 20px;
+            font-style: italic;
+        }
 
-    .forms_field-input{
-        width: 300px;
-        height: 40px;
-    }
+        input{
+            border:none;
+            margin-bottom:10px;
+        }
 
-    .forms_buttons-action{
-        font-size: 26px;
-        width: 120px;
-        background-color: $cor-botao-destaque-rosaclaro;
-    }
-    .forms_buttons-action:hover{
-        background-color: $cor-verde-forte;
-    }
+        .forms_field-input{
+            width: 300px;
+            height: 40px;
+        }
 
-    .botaoTroca{
-        margin-top:10px;
-        border:none;
-        width: 120px;
-        font-size: 25px;
-        background-color: $cor-verde-claro;
-    }
-    .botaoTroca:hover{
-        background-color: $cor-verde-forte;
+        .forms_buttons-action{
+            font-size: 26px;
+            width: 120px;
+            background-color: $cor-botao-destaque-rosaclaro;
+        }
+        .forms_buttons-action:hover{
+            background-color: $cor-verde-forte;
+        }
+
+        .botaoTroca{
+            margin-top:10px;
+            border:none;
+            width: 120px;
+            font-size: 25px;
+            background-color: $cor-verde-claro;
+        }
+        .botaoTroca:hover{
+            background-color: $cor-verde-forte;
+        }
     }
 }
-  
+
+/* Tablet */
+@media screen and (min-width:900px) and (max-width:1023px){
+
+}
+
+/* Celular */
+@media screen and (max-width:500px){
+
+}

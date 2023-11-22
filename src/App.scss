@@ -374,22 +374,6 @@
         }
     }
 
-    /* Carrossel Home */
-    .carousel {
-        margin: 0 auto;
-    }
-    
-    .carousel .slide {
-        background: #333;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-    
-    .carousel img {
-        max-width: 100%;
-        height: auto;
-    }
-
     /* Conteúdo home */
     .conteudoHome{
         font-family: $fonte-geral;
@@ -458,66 +442,51 @@
             padding-bottom:10px;
             padding-top:20px;
         }
-            /* Carrossel de resenhas */
-            .carousel-container {
-                text-align: center;
-                max-width: 80%;
-                overflow: hidden;
+
+        .diferenciaisHome{
+            text-align: center;
+            padding-top:30px;
+            padding-bottom: 30px;
+            h1{
+                font-size: 50px;
+                color: $cor-texto-padrao;
+                padding-bottom: 10px;
             }
 
-            .carousel-slide {
-            padding: 10px; 
+            h4{
+                font-size: 30px;
+                font-style: italic;
             }
-            
-            /* Mova os pontos indicadores para cima */
-            .slick-dots {
-            margin-bottom: 20px; 
-            } 
-
-            .diferenciaisHome{
+            .botaoDuvidas{
+                margin-top:10px;
+                border: none;
+                border-radius: 10px;
+                background-color: $cor-botao-destaque-rosaclaro;
+                font-size: 30px;
+                width: 400px;
+            }
+            .botaoDuvidas:hover{
+                background-color: $cor-rosa-escuro;
+            }
+            .diferenciais{
+                display: flex;
                 text-align: center;
-                padding-top:30px;
-                padding-bottom: 30px;
-                h1{
-                    font-size: 50px;
-                    color: $cor-texto-padrao;
-                    padding-bottom: 10px;
-                }
-
-                h4{
-                    font-size: 30px;
-                    font-style: italic;
-                }
-                .botaoDuvidas{
-                    margin-top:10px;
-                    border: none;
-                    border-radius: 10px;
-                    background-color: $cor-botao-destaque-rosaclaro;
-                    font-size: 30px;
-                    width: 400px;
-                }
-                .botaoDuvidas:hover{
-                    background-color: $cor-rosa-escuro;
-                }
-                .diferenciais{
-                    display: flex;
-                    text-align: center;
-                    .diferencial{
-                        padding: 10px;
-                        img{
-                            margin-bottom:10px;
-                            width: 50%;
-                        }
-                        h3{
-                            font-size: 30px;
-                        }
-                        p{
-                            font-size: 20px;
-                            text-align: center;
-                        }
+                .diferencial{
+                    padding: 10px;
+                    img{
+                        margin-bottom:10px;
+                        width: 50%;
+                    }
+                    h3{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 20px;
+                        text-align: center;
                     }
                 }
             }
+        }
     } 
 }
 

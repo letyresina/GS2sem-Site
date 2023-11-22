@@ -1,0 +1,28 @@
+/* Desktop */
+@media screen and (min-width:1024px){
+    /* Carrossel Home */
+    .carousel {
+        margin: 0 auto;
+    }
+
+    .carousel .slide {
+        background: #333;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .carousel img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:900px) and (max-width:1023px){
+
+}
+
+/* Celular */
+@media screen and (max-width:500px){
+
+}
