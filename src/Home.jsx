@@ -37,8 +37,12 @@ function Home(){
                         <h1>Veja o que dizem nossos usuários!</h1>
                         <TestimonialsCarousel />
                     </div>
-
                 </main>
+
+                <div className='diferenciaisHome'>
+                    <h1>Nossos diferenciais!</h1>
+                    
+                </div>
              </section>
         </>
     )

@@ -6,13 +6,13 @@ const Carrossel = () => {
   return (
     <Carousel showThumbs={false}>
       <div>
-        <img src="./src/assets/imagemScroll1.webp" alt="Imagem 1" />
+        <img src="./src/assets/imagemSlide.png" alt="Imagem 1" />
       </div>
       <div>
-        <img src="./src/assets/imagemScroll2.webp" alt="Imagem 2" />
+        <img src="./src/assets/imagemSlide2.png" alt="Imagem 2" />
       </div>
       <div>
-        <img src="./src/assets/imagemScroll3.webp" alt="Imagem 3" />
+        <img src="./src/assets/imagemSlide3.png" alt="Imagem 3" />
       </div>
     </Carousel>
   );
