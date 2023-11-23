@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './App.scss'
 
 function Nav(){
+
     return(
         <>
             <header className='header'>

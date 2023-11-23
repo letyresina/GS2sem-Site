@@ -41,6 +41,10 @@ const LoginForm = ({ onSwitchToSignup }) => {
         toast.success('Login bem-sucedido!');
         console.log('Login bem-sucedido!', user);
         sessionStorage.setItem('usuarioLogado',JSON.stringify(user));
+
+        setTimeout(()=>{
+          window.location='/';
+        },1000)
         // Redirecionar o usuário ou executar lógica desejada
       } else {
         toast.error('Credenciais inválidas. Verifique seu email e senha.');
