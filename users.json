@@ -11,6 +11,12 @@
       "nome": "Teste 2",
       "senha": "12345",
       "id": 2
+    },
+    {
+      "email": "admin@gmail.com",
+      "nome": "Administrador",
+      "senha": "123456",
+      "id": 3
     }
   ]
 }

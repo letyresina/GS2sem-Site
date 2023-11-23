@@ -37,13 +37,22 @@
                     padding:5px;
                     border:1px solid $cor-destaque-nav;
                     margin-bottom:130px;
-                    width: 200px;
+                    width: auto;
                     height: 50px;
                     border-radius: 10px;
                     img{
                         width: 40px;
                         padding-bottom:4px;
                         padding-right: 5px;
+                    }
+
+                    .botaoNav{
+                        border:none;
+                        color:$cor-destaque-nav;
+                        padding-left: 5px;
+                        background-color: transparent;
+                        font-weight: bold;
+                        font-size: 23px;
                     }
                 }
             }
@@ -520,13 +529,21 @@
                     padding:5px;
                     border:1px solid $cor-destaque-nav;
                     margin-bottom:130px;
-                    width: 200px;
+                    width: auto;
                     height: 50px;
                     border-radius: 10px;
                     img{
                         width: 40px;
                         padding-bottom:4px;
                         padding-right: 5px;
+                    }
+                    .botaoNav{
+                        border:none;
+                        color:$cor-destaque-nav;
+                        padding-left: 5px;
+                        background-color: transparent;
+                        font-weight: bold;
+                        font-size: 23px;
                     }
                 }
             }
@@ -1006,13 +1023,20 @@
                     padding:5px;
                     border:1px solid $cor-destaque-nav;
                     margin-bottom:130px;
-                    width: 150px;
+                    width: auto;
                     height: 40px;
                     border-radius: 10px;
                     img{
                         width: 30px;
                         padding-bottom:4px;
                         padding-right: 5px;
+                    }
+                    .botaoNav{
+                        border:none;
+                        color:$cor-destaque-nav;
+                        background-color: transparent;
+                        font-weight: bold;
+                        font-size: 18px;
                     }
                 }
             }
